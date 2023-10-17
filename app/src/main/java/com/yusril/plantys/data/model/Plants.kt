@@ -3,7 +3,8 @@ package com.yusril.plantys.data.model
 data class Plants(
     val id: Int,
     val name: String,
-    val description: Double,
+    val description: String,
     val type: String,
-    val about: String,
+    val latin: String,
+    val image : Int
 )
