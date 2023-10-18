@@ -11,8 +11,8 @@ import com.yusril.plantys.R
 // Set of Material typography styles to start with
 private val Sailec = FontFamily(
     Font(R.font.sailec_regular),
-    Font(R.font.sailec_medium),
-    Font(R.font.sailec_bold),
+    Font(R.font.sailec_medium, FontWeight.W500),
+    Font(R.font.sailec_bold, FontWeight.Bold)
 )
 // Set of Material typography styles to start with
 val typography = Typography(
